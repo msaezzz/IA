@@ -1,0 +1,9 @@
+# Ignorar todas las carpetas ocultas excepto .git
+.*/
+!.git/
+
+# Ignorar la carpeta sklearn-venv en cualquier ubicación
+sklearn-venv/
+__pycache__/
+model_weights.pth
+encoder.pth
